@@ -1,10 +1,8 @@
-# Codebender AI Chatbot Template
+# NextJS AI Chatbot to Generate Textual Adventure Game
 
-This project is a template code to create a simple AI chatbot.
+We use Google's Gemini API to generate text. NextJS app calls the API through a chat interface
 
-It's a chat interface that allows you to talk with the Last Codebender.
-
-This project is built using Nextjs. It utilizes the OpenAI GPT4 for chat completion.
+The system prompt instructs Gemini to act as an interactive adventure storyteller, generating  user-driven narratives with multiple possible paths and endings. It requires the AI to craft immersive scenes that unfold based on user choices. Each choice should lead to unique outcomes and include plot twists to keep the adventure engaging.
 
 <img src="app-screenshot.png" alt="app demo" width=600>
 
@@ -27,12 +25,6 @@ yarn dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 ## Challenges
 
