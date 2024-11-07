@@ -4,7 +4,7 @@ We use Google's Gemini API to generate text. NextJS app calls the API through a 
 
 The system prompt instructs Gemini to act as an interactive adventure storyteller, generating  user-driven narratives with multiple possible paths and endings. It requires the AI to craft immersive scenes that unfold based on user choices. Each choice should lead to unique outcomes and include plot twists to keep the adventure engaging.
 
-<img src="story-teller-nextjs.png" alt="app demo" width=600>
+<img src="images/story-teller-nextjs.png" alt="app demo" width=600>
 
 ## Getting Started
 
