@@ -4,13 +4,13 @@ We use Google's Gemini API to generate text. NextJS app calls the API through a 
 
 The system prompt instructs Gemini to act as an interactive adventure storyteller, generating  user-driven narratives with multiple possible paths and endings. It requires the AI to craft immersive scenes that unfold based on user choices. Each choice should lead to unique outcomes and include plot twists to keep the adventure engaging.
 
-<img src="images/story-teller-nextjs.png" alt="app demo" width=600>
+<img src="images/story-teller-nextjs.png" alt="app demo" width=350 height=470>
 
 ## Getting Started
 
-First, duplicate the `.env` file into a new file named `.env.local`. Update the value of your [OpenAI API key](https://platform.openai.com/api-keys) there.
+In an *.env* file keep the Gemini API key under the variable **GOOGLE_GENERATIVE_AI_API_KEY**.
 
-The first time you are running this project, you will need to install the dependencies. Run this command in your terminal:
+To install dependencies, run:
 
 ```bash
 yarn
@@ -22,9 +22,7 @@ To start the app, run:
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the chat interface.
 
 ## Challenges
 
