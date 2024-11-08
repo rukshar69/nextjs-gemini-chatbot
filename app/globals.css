@@ -58,7 +58,7 @@ h1 {
   text-align: left;
   padding: 30px;
   overflow: auto;
-  height: calc(100vh - 300px);
+  height: calc(100vh - 190px);
   box-sizing: border-box;
 }
 
@@ -95,7 +95,7 @@ h1 {
 
 .chat-line .message {
   margin-top: 0;
-  color: #040d17;
+  /* color: #040d17; */
 }
 
 .ai-chat .message {

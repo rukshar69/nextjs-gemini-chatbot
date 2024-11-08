@@ -6,6 +6,8 @@ The system prompt instructs Gemini to act as an interactive adventure storytelle
 
 <img src="images/story-teller-nextjs.png" alt="app demo" width=350 height=470>
 
+There is one component in the app: **Chat.tsx**. The **useChat** function is used to interact with the API found in **api/chat/route.ts**.
+
 ## Getting Started
 
 In an *.env* file keep the Gemini API key under the variable **GOOGLE_GENERATIVE_AI_API_KEY**.
