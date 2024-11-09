@@ -3,7 +3,7 @@ import type { Metadata } from 'next'
 import { Analytics } from '@vercel/analytics/react';
 
 export const metadata: Metadata = {
-  title: 'Chatbot AI Template',
+  title: 'Adventure AI Chat Game',
   description: 'Code for Chatbot AI Project',
 }
 
