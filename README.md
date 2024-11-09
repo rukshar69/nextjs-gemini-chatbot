@@ -26,7 +26,16 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the chat interface.
 
-## Challenges
+## Automation Testing with Playwright
+
+Playwright(Python) is used to test the chat flow (in Playwright-test folder). The chatflow for testing includes:
+- Send a sample message ("Hi, tell me a story!").
+- Check if the user's message appears in the chat bubble.
+- Wait for the AI response and verify it is not empty. 
+
+A screenshot of the automated Playwright test:
+
+<img src="images/playwright-automation-test.png" alt="app demo" width=450 height=400>
 
 ### Challenge 1
 TypeScript detects mismatch due to different versions of *@ai-sdk/provider* and *@ai-sdk/google*
