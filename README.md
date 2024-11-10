@@ -6,7 +6,10 @@ The system prompt instructs Gemini to act as an interactive adventure storytelle
 
 <img src="images/story-teller-nextjs.png" alt="app demo" width=350 height=470>
 
-A sample **VIDEO DEMO** hosted on Youtube: [A Short Glimpse into NextJS/Gemini AI Adventure Game Chatbot](https://youtu.be/82cfLiSjNr0)
+A sample **VIDEO DEMO** hosted on Youtube:
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/82cfLiSjNr0/0.jpg)](https://youtu.be/82cfLiSjNr0)
+
 
 
 
