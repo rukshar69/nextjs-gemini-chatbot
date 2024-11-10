@@ -37,6 +37,17 @@ A screenshot of the automated Playwright test:
 
 <img src="images/playwright-automation-test.png" alt="app demo" width=450 height=400>
 
+## Dockerization
+
+The app can be deployed as a Docker container using the provided Dockerfile.
+
+```bash
+docker build -t nextjs-ai-chatbot .
+docker run -p 3000:3000 nextjs-ai-chatbot
+```
+
+## Challenge
+
 ### Challenge 1
 TypeScript detects mismatch due to different versions of *@ai-sdk/provider* and *@ai-sdk/google*
 
@@ -64,4 +75,4 @@ The code snippet should be under the html tag.
 - [NextJS ChatBot Template Tutorial](https://www.youtube.com/watch?v=sHuIIX79MOs&ab_channel=CodebenderAI)
 - [useChat() documentation](https://sdk.vercel.ai/docs/reference/ai-sdk-ui/use-chat)
 - [ai-sdk chatbot](https://sdk.vercel.ai/docs/ai-sdk-ui/chatbot)
-
+- [NextJS Dockerization tutorial](https://dev.to/vorillaz/how-to-dockerize-a-nextjs-app-4e4h)
