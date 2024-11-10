@@ -6,6 +6,11 @@ The system prompt instructs Gemini to act as an interactive adventure storytelle
 
 <img src="images/story-teller-nextjs.png" alt="app demo" width=350 height=470>
 
+A sample video demo:
+
+<video src="https://www.youtube.com/watch?v=82cfLiSjNr0" controls width=350 height=470>
+
+
 There is one component in the app: **Chat.tsx**. The **useChat** function is used to interact with the API found in **api/chat/route.ts**.
 
 ## Getting Started
